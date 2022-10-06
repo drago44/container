@@ -1,0 +1,29 @@
+@import "reset.css";
+
+body {
+  font-family: sans-serif;
+}
+
+.exp-first {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.exp-first__bg {
+  min-height: 5rem;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+}
+
+.exp-second {
+  width: min(100% - 30px, 810px);
+  margin-inline: auto;
+}
+
+.exp-second__bg {
+  min-height: 5rem;
+  padding: 15px;
+  background-color: yellow;
+}
